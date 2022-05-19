@@ -1,0 +1,34 @@
+<?php
+$x=1.23;
+$y=98;
+$z="WAR";
+$s="WJS32JEJE";
+$bb=true;
+$arr=array("RJEJE", "RHEHMA");
+$arr1=array("KTR",278,73.72);
+var_dump($x);
+echo "<br>";
+printf("Printed using printf and data modifier: %f <br>", $x);
+var_dump($y);
+echo "<br>";
+printf("Printed using printf and data modifier: %d <br>", $y);
+var_dump($z);
+echo "<br>";
+printf("Printed using printf and data modifier: %s <br>", $z);
+var_dump($s);
+echo "<br>";
+printf("Printed using printf and data modifier: %s <br>", $s);
+var_dump($bb);
+echo "<br>";
+printf("Printed using printf and data modifier: %d", $bb);
+echo "<br>";
+var_dump($arr);
+echo "<br> Printed using print_r: ";
+print_r($arr);
+echo"<br>";
+var_dump($arr1);
+echo "<br> Printed using print_r and pre tag: ";
+echo "<pre>";
+print_r($arr1);
+echo "</pre>";
+?>
